@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/test_chatelo_fe/static/css/main.267c4600.css",
+    "main.js": "/test_chatelo_fe/static/js/main.556e4ed7.js",
+    "static/js/453.a4b9ef31.chunk.js": "/test_chatelo_fe/static/js/453.a4b9ef31.chunk.js",
+    "index.html": "/test_chatelo_fe/index.html",
+    "main.267c4600.css.map": "/test_chatelo_fe/static/css/main.267c4600.css.map",
+    "main.556e4ed7.js.map": "/test_chatelo_fe/static/js/main.556e4ed7.js.map",
+    "453.a4b9ef31.chunk.js.map": "/test_chatelo_fe/static/js/453.a4b9ef31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.267c4600.css",
+    "static/js/main.556e4ed7.js"
+  ]
+}

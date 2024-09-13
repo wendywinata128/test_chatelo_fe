@@ -11,7 +11,7 @@ interface ChatRoomStoreI {
   fetchChatRoomData: () => void;
   
   selectedChatRoom: string | null;
-  selectChatRoom: (room: ChatRoom) => void;
+  selectChatRoom: (room: ChatRoom | null) => void;
   updateChatRoomData: (message: Message, chatRoomId: string) => void;
   getSelectedChatRoom: () => ChatRoom | null;
   
@@ -62,8 +62,11 @@ const useChatRoomStore = create<ChatRoomStoreI>((set, get) => {
     },
 
     selectedChatRoom: null,
-    selectChatRoom: (room: ChatRoom) => {
+    selectChatRoom: (room: ChatRoom | null) => {
       set((state) => {
+        if(!room){
+          return {...state, selectedChatRoom: null}
+        }
         return { ...state, selectedChatRoom: room._id };
       });
     },

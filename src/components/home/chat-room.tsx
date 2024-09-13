@@ -44,7 +44,7 @@ export default function HomeChatRoom() {
   };
 
   return (
-    <div className="w-80 h-full border-r flex flex-col">
+    <div className="w-full h-full border-r flex flex-col">
       <CreateRoomModal
         show={dialogAddChatRoom}
         onCreateRoom={onCreateRoomSubmitted}

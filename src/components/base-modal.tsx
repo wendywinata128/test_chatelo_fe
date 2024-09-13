@@ -17,7 +17,7 @@ export function BaseModal({
   };
   return createPortal(
     <div
-      className={`modal-container fixed top-0 left-0 right-0 bottom-0 z-30 bg-black/60 flex items-center justify-center ${
+      className={`modal-container p-4 fixed top-0 left-0 right-0 bottom-0 z-30 bg-black/60 flex items-center justify-center ${
         show ? "opacity-1 pointer-events-auto" : "opacity-0 pointer-events-none"
       }`}
       onClick={onClickOutside}
